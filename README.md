@@ -38,7 +38,7 @@ npm i @uboot/uboot
 Usually an **Ocean** represents your entire application. In this case we create exactly one Ocean globally.
 
 ```ts
-import { createOcean, Ocean } from '@uboot';
+import { createOcean, Ocean } from '@uboot/uboot';
 
 const ocean: Ocean = createOcean();
 ```
@@ -98,7 +98,7 @@ sub.unsubscribe();
 
 ### Sending Messages
 
-Messages of any type are sent over the radio via a Channel (here: 'greetings').
+Messages of any type are sent over the radio via a Channel (here: *greetings*).
 
 ```ts
 const delivered = await fooUboot.radio('greetings').send<string>('Hey all uboots!');
