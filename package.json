@@ -1,0 +1,31 @@
+{
+  "name": "@uboot/uboot",
+  "version": "0.1.0",
+  "description": "Uboot - Delightful distributed Messaging and State Management for JavaScript and TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uboot-io/uboot.git"
+  },
+  "author": "Pawel Sawicki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uboot-io/uboot/issues"
+  },
+  "homepage": "https://github.com/uboot-io/uboot#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.4.0",
+    "typescript": "^4.0.3"
+  }
+}
