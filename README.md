@@ -53,7 +53,7 @@ In the application we usually create a large number of **Uboots**.
 Each Uboot has an **ID** and a **State**.
 
 ```ts
-import { Uboot } from '@uboot';
+import { Uboot } from '@uboot/uboot';
 
 const fooUboot: Uboot = ocean.uboot('foo', {});
 ```

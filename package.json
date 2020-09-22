@@ -1,6 +1,6 @@
 {
   "name": "@uboot/uboot",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "description": "Uboot - Delightful distributed Messaging and State Management for JavaScript and TypeScript.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
